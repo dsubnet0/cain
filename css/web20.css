@@ -11,15 +11,14 @@ table {
   text-align:left;
   }
 caption {
-  text-align: center;
-  font: bold 16px arial, helvetica, sans-serif;
+  text-align: right;
+  font: bold 11px arial, helvetica, sans-serif;
   background: transparent;
-  padding:6px 4px 8px 0px;
-  color: #CC00FF;
-  /*text-transform: uppercase;*/
+  /*padding:6px 4px 8px 0px;*/
+  /*color: #CC00FF;*/
+  color: #13421F;;
 }
 thead, tfoot {
-background:url(bg1.png) repeat-x;
 text-align:left;
 height:30px;
 }
@@ -33,9 +32,21 @@ text-decoration:none;
 table a:hover {
 text-decoration:underline;
 }
-tr.odd {
+/*tr:odd {
+background: #f1f1f1;
+}
+*/
+tr:nth-child(even) {
 background: #f1f1f1;
 }
 tbody th, tbody td {
-padding:5px;
+padding:8px;
+}
+
+td.name{
+text-align:left;
+}
+
+td.data{
+text-align:right;
 }

@@ -1,30 +1,49 @@
-/*table
-{
-border: 1px solid black;
-border-collapse:collapse;
+p.copy {
+	color:#13421F;
+	font:italic 16px verdana, arial, helvetica, sans-serif;
 }
 
-td
-{
-border: 1px solid black;
-border-collapse:collapse;
-text-align:center;
+p.subtitle {
+	color:#13421F;
+	font:bold 28 px verdana, arial, helvetica, sans-serif;
+	text-align:left;
 }
 
-th
-{
-text-align:center;
-text-decoration:underline;
-color:blue;
-border: 1px solid black;
-border-collapse:collapse;
-
+p.instructions {
+	color:#13421F;
+	font:bold 16px verdana, arial, helvetica, sans-serif;
 }
-*/
+
+img.floatLeft{
+	float:left;
+	margin:4px;
+}
+
+body {
+	text-align:center;
+}
+
+#container {
+	margin:0 auto;
+	width:1024px;
+}
+
+#title {
+	text-align:left;
+	width:400px;
+	float:left;
+}
+
+#copy {
+	text-align:left;
+	float:right;
+	width:500px;
+}
+
+
 ul.fdtablePaginater
 
         {
-
         display:table;
 
         list-style:none;
@@ -39,8 +58,9 @@ ul.fdtablePaginater
 
         width:auto;
 
-        margin-bottom:2em;
-
+		margin-bottom:1em;
+		
+		margin-top:1em;
         }
 
 ul.fdtablePaginater li
@@ -67,7 +87,8 @@ ul.fdtablePaginater li a.currentPage
 
         {
 
-        border-color:#a84444 !important;
+        /*border-color:#a84444 !important;*/
+		border-color:#13421F;
 
         color:#000;
 
@@ -134,8 +155,6 @@ ul.fdtablePaginater li div span
         line-height:2em;
 
         border:1px solid #fff;
-
-        background:#fff url(../media/gradient.gif) repeat-x 0 -20px;
 
         }
 
