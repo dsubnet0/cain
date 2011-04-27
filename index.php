@@ -26,7 +26,7 @@ $fields = array("2660_1", "31967_1", "31971_1", "31975_1");
 <p class="instructions">CLICK on a column heading to sort.  Or DRAG to rearrange the columns.</p>
 </div>
 
-<table class="sortable-onload-3 no-arrow rowstyle-alt colstyle-alt paginate-50 max-pages-7 draggable">
+<table class="sortable-onload-0 no-arrow rowstyle-alt colstyle-alt paginate-50 max-pages-7 draggable">
 <thead>
 <tr>
 	<th class="sortable-text">Company Name</th>
