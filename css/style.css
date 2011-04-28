@@ -19,9 +19,11 @@ img.floatLeft{
 	margin:4px;
 }
 
+
 body {
 	text-align:center;
 }
+
 
 #container {
 	margin:0 auto;
@@ -88,7 +90,7 @@ ul.fdtablePaginater li a.currentPage
         {
 
         /*border-color:#a84444 !important;*/
-		border-color:#13421F;
+		border-color:#13421F !important;
 
         color:#000;
 
@@ -203,3 +205,5 @@ ul.fdtablePaginater li .last-page span
         font-weight:bold !important;
 
         }
+
+		

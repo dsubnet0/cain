@@ -15,10 +15,20 @@ $fields = array("2660_1", "31967_1", "31971_1", "31975_1");
 
 ?>
 
+<!--[if IE]>
+<style type="text/css">
+ul.fdtablePaginater {display:inline-block;}
+ul.fdtablePaginater {display:inline;}
+ul.fdtablePaginater li {float:left;}
+ul.fdtablePaginater {text-align:center;}
+table { border-bottom:1px solid #C1DAD7; }
+</style>
+<![endif]-->
+
 <body>
 <div id="container">
 <div id="title">
-<a href="json3.php"><img src="img/pilogo.png" width="379" height="69"></a>
+<a href="json3.php"><img src="img/pilogo.png" width="379" height="69" border="0"></a>
 <p class="subtitle">Tabular Reference Area</p>
 </div>
 <div id="copy">
