@@ -19,6 +19,11 @@ img.floatLeft{
 	margin:4px;
 }
 
+p.paginate_select {
+	color:#13421F;
+	font:bold 12px verdana, arial, helvetica, sans-serif;
+}
+
 
 body {
 	text-align:center;
@@ -40,6 +45,16 @@ body {
 	text-align:left;
 	float:right;
 	width:500px;
+}
+
+#paginate_select {
+	text-align:right;
+	float:right;
+	width:500px;
+}
+
+#top_frame {
+	height:220px;
 }
 
 
