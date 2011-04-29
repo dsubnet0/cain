@@ -103,3 +103,8 @@ echo "</table>\n";
 ?>
 </div>
 </body>
+
+<foot>
+<br><br>
+<a href="attribution.php">Attribution and Acknowledgement</a>
+</foot>
