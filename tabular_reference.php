@@ -1,6 +1,5 @@
 <?php
 echo "<head>\n";
-
 	echo ' <script type="text/javascript" src="js/tablesort.js"></script>'."\n";
 	echo ' <script type="text/javascript" src="js/paginate.js"></script>'."\n";
 	echo ' <script type="text/javascript" src="js/dragtable.js"></script>'."\n";
@@ -29,7 +28,7 @@ table { border-bottom:1px solid #C1DAD7; }
 <div id="container">
 <div id="top_frame">
 <div id="title">
-	<a href="json6.php"><img src="img/pilogo.png" width="379" height="69" border="0"></a>
+	<a href="tabular_reference.php"><img src="img/pilogo.png" width="379" height="69" border="0"></a>
 	<p class="subtitle">Tabular Reference Area</p>
 </div>
 <div id="copy">
@@ -38,6 +37,10 @@ table { border-bottom:1px solid #C1DAD7; }
 </div>
 
 <?php
+
+//BEGIN CUSTOM PAGINATION
+
+//Default to 50 items per page
 if (isset($_GET['paginate'])) {
 	$items_per_page = $_GET['paginate'];
 } else {
@@ -73,8 +76,12 @@ if (isset($_GET['paginate'])) {
 </select>
 </form>
 </p>
-</div>
-</div>
+</div> <!-- close paginate_select -->
+</div> <!-- close top_frame -->
+
+<?php 
+//END CUSTOM PAGINATION 
+?>
 
 
 <table class="sortable-onload-0 no-arrow rowstyle-alt colstyle-alt paginate-<?php echo $items_per_page ?> max-pages-7 draggable">
@@ -98,12 +105,13 @@ foreach ( $json_output->BODY as $body )
 	}
 	echo "</tr>\n";
 }
-echo "</table>\n";
-
 ?>
-</div>
+
+</table>
+</div> <!-- close container -->
 </body>
 
+<!-- Were this a real application, the below would be in a separate "include" file -->
 <foot>
 <br><br>
 <a href="attribution.php">Attribution and Acknowledgement</a>
